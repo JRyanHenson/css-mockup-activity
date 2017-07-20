@@ -7,6 +7,9 @@
 ******************************************************/
 html, body {
 	margin: 0;
+	background-blend-mode: multiply;
+
+
 }
 
 .container {
@@ -31,6 +34,7 @@ html, body {
 	.container { width: 750px; }
 }
 
+
 /*****************************************************
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -53,3 +57,129 @@ body { width: 100%;}
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
+
+header {
+	background-color: darkorange;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 70px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+header h1 {
+	float: left;
+	position: relative;
+	top: 0px;
+	bottom: 20px;
+	left: 10px;
+}
+
+header em {
+	position: relative;
+	top: 35px;
+	bottom: 10px;
+	left: 20px;
+	right:10px;
+}
+.instructions {
+	font-size: 15px;
+	font-weight: bold;
+	color: darkorange;
+	border-style: solid;
+	border-color: darkorange;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.pull-right > img {
+	max-height: 400px;
+	max-width: 400px;
+	width: 200px;
+	height: 200px;
+}
+.pull-right{
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+.container > img {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-height: 400px;
+	max-width: 400px;
+	width: 200px;
+	height: 200px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+
+section:nth-child(2) {
+	background-color: lightgray;
+}
+.container > h2{
+	color: orange;
+	text-align: right;
+}
+.pull-left + h2{
+	color: black;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+div p {
+	background-color: lightgray;
+	color: black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+p > span {
+	font-weight: bold;
+}
+.container table {
+	background-color: darkorange;
+	color: white;
+	font-size: small;
+	text-align: left;
+	border-collapse: collapse;
+	border: 2px solid white;
+	width:100%;
+	height: 200px;
+}
+table tr {
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+table th {
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+table td {
+	border-collapse: collapse;
+	border: 2px solid white;
+}
+footer {
+	background-color: black;
+	color: white;
+}
+
